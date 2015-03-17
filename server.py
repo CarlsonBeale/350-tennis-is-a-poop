@@ -10,7 +10,7 @@ app.config['SECRET_KEY'] = 'secrbkkjbkhbkhbet!'
 app.debug = True
 socketio = SocketIO(app)
 
-messages = [{'text':'test', 'name':'testName'}
+messages = [{'text':'test', 'name':'testName'}]
 users = {}
 
 
